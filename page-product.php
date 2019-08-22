@@ -39,20 +39,9 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
-  	<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
 
 </head>
 <body>
-
-<script type="text/javascript">
-	$(window).scroll(function(){
-		if ($(window).scrollTop()<500) {
-	$('#test-popup').fadeOut(200);
-		}else{
-	$('#test-popup').fadeIn(200);	
-		}
-	});
-</script>
 
 <?php  
 if(isset($row)){
