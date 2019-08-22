@@ -15,5 +15,5 @@ CREATE TABLE formations(
 	formation_code varchar(120) not null,
 	formation_souscategoriebool tinyint(1)  not null,
 	formation_souscategorieindex int(11) not null,	
-        formation_public tinyint(1)  not null,
+    formation_public tinyint(1)  not null
 );
