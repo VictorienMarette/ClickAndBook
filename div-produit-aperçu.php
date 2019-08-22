@@ -1,11 +1,6 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>div-produit-recherche</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
-</head>
-<body>
+<?php
+  include_once("includes/modules/header.php");
+?>
 	
 <div class="conteneur-tag">
 	je suis la table de tag permettant de naviguer dans la base de donnée
@@ -116,5 +111,6 @@
 
 </div>
 
-</body>
-</html>
+<?php
+  include_once("includes/modules/footer.php");
+?>

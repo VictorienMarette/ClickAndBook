@@ -1,6 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
 <?php
 	include_once("includes/background/dph.php");
 
@@ -38,16 +35,10 @@
 	}
 
 	if(isset($row)){
-		echo "<title>Click&Book - ".$row['formation_nom']."</title>";
-	}else{
-		echo "<title>Click&Book - Formation Inexistante</title>";
+		$title = "Click&Book - ".$row['formation_nom'];
 	}
-
+	include_once("includes/modules/header.php");
 	?>
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
-</head>
-<body>
 
 	<div class="mise-en-page">
 
@@ -148,5 +139,6 @@
 
 </div>
 
-</body>
-</html>
+<?php
+	include_once("includes/modules/footer.php");
+?>

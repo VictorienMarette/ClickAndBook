@@ -1,6 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
 <?php
 	include_once("includes/background/dph.php");
 
@@ -30,30 +27,21 @@
 	}
 
 	if(isset($row)){
-		echo "<title>Click&Book - ".$row['livre_nom']."</title>";
-	}else{
-		echo "<title>Click&Book - Livre Inexistant</title>";
+		$title = "Click&Book - ".$row['livre_nom'];
 	}
-
-?>
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
-
-</head>
-<body>
-
-<?php  
-if(isset($row)){
-	echo '<div id="test-popup">
-	<div class="align-lien-o">
-		<h2 href="#" class="titre-livre tte">
-			'.$row["livre_nom"].'
-		</h2>
-		<a  class="lien-amazon-p" href="'.$row["livre_lien"].'">Acheter sur Amazon<img class="amazon-image" src="amazon-logo.png"></a>
-	</div>	
-</div>';
-}
+	
+  	include_once("includes/modules/header.php");
+ 
+	if(isset($row)){
+		echo '<div id="test-popup">
+		<div class="align-lien-o">
+			<h2 href="#" class="titre-livre tte">
+				'.$row["livre_nom"].'
+			</h2>
+			<a  class="lien-amazon-p" href="'.$row["livre_lien"].'">Acheter sur Amazon<img class="amazon-image" src="amazon-logo.png"></a>
+		</div>	
+	</div>';
+	}
 ?>
 
 	<div class="conteneur-product-page">
@@ -199,6 +187,6 @@ if(isset($row)){
 				?>
 		
 	</div>
-
-</body>
-</html>
+	<?php
+		include_once("includes/modules/footer.php");
+	?>
