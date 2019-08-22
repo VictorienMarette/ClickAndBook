@@ -1,0 +1,19 @@
+CREATE TABLE livres(
+    livre_ISBN int(100) not null PRIMARY KEY,
+    livre_nom varchar(500) not null,
+    livre_description varchar(5000) not null,
+    livre_lien varchar(2000) not null,
+    livre_auteur varchar(100) not null,
+    livre_edition varchar(100) not null
+);
+
+CREATE TABLE formations(
+	formation_index int(11) not null PRIMARY KEY AUTO_INCREMENT,
+	formation_nom varchar(500) not null,
+	formation_lien varchar(2000) not null,
+	formation_livres varchar(5000) not null,
+	formation_code varchar(120) not null,
+	formation_souscategoriebool tinyint(1)  not null,
+	formation_souscategorieindex int(11) not null,	
+        formation_public tinyint(1)  not null,
+);
