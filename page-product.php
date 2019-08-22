@@ -74,13 +74,13 @@ if(isset($row)){
 					<div class="conteneur-haut">
 						<div class="conteneur-product-photos">';
 					if(file_exists("uploads/image_livre/".$row["livre_ISBN"].".jpg")){
-						echo '<img class="image-livre-2" src="uploads/image_livre/'.$row["livre_ISBN"].'.jpg">';
+						echo '<img class="image-product" src="uploads/image_livre/'.$row["livre_ISBN"].'.jpg">';
 					}elseif (file_exists("uploads/image_livre/".$row["livre_ISBN"].".jpeg")) {
-						echo '<img class="image-livre-2" src="uploads/image_livre/'.$row["livre_ISBN"].'.jpeg">';
+						echo '<img class="image-product" src="uploads/image_livre/'.$row["livre_ISBN"].'.jpeg">';
 					}elseif (file_exists("uploads/image_livre/".$row["livre_ISBN"].".png")) {
-						echo '<img class="image-livre-2" src="uploads/image_livre/'.$row["livre_ISBN"].'.png">';
+						echo '<img class="image-product" src="uploads/image_livre/'.$row["livre_ISBN"].'.png">';
 					}else{
-						echo '<img class="image-livre-2" src="uploads/bases/livre.jpg">';
+						echo '<img class="image-product" src="uploads/bases/livre.jpg">';
 					}
 
 					echo '</div>
