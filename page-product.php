@@ -102,8 +102,8 @@
 					</div>
 				</div>
 				<div class="conteneur-milieu">
-					<h2 class="titre-info-product titre-22">Description</h2>';
-						echo '<p class="texte-info-product y1h">'.$row["livre_description"].'</p>';
+					<h2 class="titre-info-product titre-22 vw">Description</h2>';
+						echo '<p class="texte-info-product y1h bbg">'.$row["livre_description"].'</p>';
 						echo '</div>
 							<div class="conteneur-bas">
 								<h2 class="titre-info-product titre-22">Vous pouriez également être intéressé par :</h2>

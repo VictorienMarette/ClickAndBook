@@ -1044,8 +1044,11 @@ span.logo {}
 }
 .titre-22 {
   text-align: center;
-  margin: 60px auto;
+  margin: 50px auto 0 auto;
   width: 80%;
+}
+.vw{
+  margin: 50px auto;
 }
 .gt{
   margin-bottom: 10px;
@@ -1328,5 +1331,11 @@ span.logo {}
   }
   .titre-info-product{
     font-size: 33px;
+  }
+  .y1h{
+    text-align: start;
+  }
+  .bbg{
+    text-align: center;
   }
 }
