@@ -742,7 +742,7 @@ span.logo {}
   align-items: center;
 }
 .align-lien-u {
-  margin: 20px auto;
+  margin: 20px 0;
 }
 .lien-amazon:hover {
   background-color: #0059b3;
@@ -1083,6 +1083,7 @@ span.logo {}
 .amazon-image {
   width: 54px;
   height: 30px;
+  margin-left: 10px;
 }
 .titre-22 {
   text-align: center;
