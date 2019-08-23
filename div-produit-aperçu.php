@@ -1,6 +1,10 @@
 <?php
   include_once("includes/modules/header.php");
 ?>
+
+<div class="container-filter">
+	
+</div>
 <div class="widget-tri">
 	<img class="image-widget-tri" src="filtre.png">	
 </div>

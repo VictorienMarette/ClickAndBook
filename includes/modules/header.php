@@ -36,6 +36,33 @@ $('.trou').hover(function(){
 });
 })
   </script>
+
+
+
+
+<script type="text/javascript">
+$(document).ready(function(){
+    $('.container-filter').hide();
+$('.widget-tri').hover(function(){
+        $('.container-filter').fadeIn(200);
+});
+})
+  </script>
+
+      <script type="text/javascript">
+$(document).ready(function(){
+$('.widget-tri').mouseleave(function(){
+        $('.container-filter').fadeOut(200);
+});
+})
+  </script>
+
+
+
+
+
+
+
     <script type="text/javascript">
 $(document).ready(function(){
 $('.container').mouseleave(function(){
