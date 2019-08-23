@@ -53,6 +53,3 @@
       </div>
 
     </footer>
-
-</body>
-</html>

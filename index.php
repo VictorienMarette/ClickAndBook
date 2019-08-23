@@ -76,3 +76,6 @@
 <?php
   include_once("includes/modules/footer.php");
 ?>
+
+</body>
+</html>
