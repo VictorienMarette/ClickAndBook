@@ -155,7 +155,7 @@ $('.simple').hover(function(){
     <div class="balle"><i class="fa fa-bars fa-2x" onclick="menutel()"></i></div>
   <div class="menu-sans-titre">
     <ul>
-      <li><a class="simple" href="#">Accueil</a></li>
+      <li><a class="simple" href="index.php">Accueil</a></li>
       <li><a class="trou js-scrollTo" href="#matière-container">Livres<img class="icon-arrow" src="img/sort-down.png"></a>
     <div class="container">
       <div class="triangle">
