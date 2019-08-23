@@ -33,7 +33,8 @@
   	include_once("includes/modules/header.php");
  
 	if(isset($row)){
-		echo '<div id="test-popup">
+		echo '
+		<div id="test-popup">
 		<div class="align-lien-o">
 			<h2 href="#" class="titre-livre tte">
 				'.$row["livre_nom"].'
