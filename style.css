@@ -666,7 +666,7 @@ span.logo {}
 }
 /*aperçu*/
 
-.conteneur-tag {
+#sticky{
   height: 650px;
   width: 295px;
   background-color: #f2f2f2;
@@ -952,7 +952,7 @@ span.logo {}
   .simulation{
     max-width: 975px;
   }
-  .conteneur-tag{
+  #sticky{
     display: none;
   }
   .alignement-aperçu{

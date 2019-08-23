@@ -5,7 +5,7 @@
 	<img class="image-widget-tri" src="filtre.png">	
 </div>
 <div class="conteneur-tab-simulation">
-<div class="conteneur-tag">
+<div id="sticky">
 	je suis la table de tag permettant de naviguer dans la base de donnée
 </div>
 
