@@ -16,7 +16,9 @@
       Ne perdez pas de temps à commander vos livres scolaires, on le fait pour vous.
     </p>
   <div class="align">
-    <input class="input-recherche" type="text" name="recherche" placeholder="Quel est le nom de ton établissement ?"><button class="button-recherche" type="submit" name="submit"><img class="image-search" src="img/loupe.png" alt=""></button>
+    <form method="GET" action="div-produit-recherche.php">
+      <input class="input-recherche" type="text" placeholder="Quel est le nom de ton établissement ?" name="code"><button class="button-recherche" type="submit" name="submit"><img class="image-search" src="img/loupe.png" alt=""></button>
+    </form>
   </div>
   <a class="js-scrollTo" href="#matière-container"><img class="fleche-down" src="img/arrow-down.png"></a>
   </div>
