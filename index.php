@@ -31,6 +31,7 @@
 
       <div class="matière">
         <div class="rond-image rond-1"><img class="image-matière" src="img/cpge.png"></div>
+      <div class="responsive-matière">
         <h2 class="titre-matière">
           CPGE
         </h2>
@@ -39,9 +40,11 @@
         </p>
         <div class="align-3"><a class="lien-description" href="#">Voir matières</a></div>
       </div>
+      </div>
 
        <div class="matière">
         <div class="rond-image rond-3"><img class="image-matière" src="img/uni.png"></div>
+        <div class="responsive-matière">
         <h2 class="titre-matière">
           Universités
         </h2>
@@ -50,9 +53,11 @@
         </p>
         <div class="align-3"><a class="lien-description" href="#">Voir matières</a></div>
       </div>
+      </div>
 
        <div class="matière">
         <div class="rond-image rond-2"><img class="image-matière" src="img/engineer.png"></div>
+        <div class="responsive-matière">
         <h2 class="titre-matière">
           Ingénieur
         </h2>
@@ -61,9 +66,11 @@
         </p>
         <div class="align-3"><a class="lien-description" href="#">Voir matières</a></div>
       </div>
+      </div>
 
        <div class="matière">
         <div class="rond-image rond-4"><img class="image-matière" src="img/business.png"></div>
+        <div class="responsive-matière">
         <h2 class="titre-matière">
           Commerce
         </h2>
@@ -71,6 +78,7 @@
           Toutes les matières sont réunies pour te permettre aussi bien de progresser dans tes matières faibles que de te perfectionner dans tes matières fortes.
         </p>
         <div class="align-3"><a class="lien-description" href="#">Voir matières</a></div>
+      </div>
       </div>
     </div>
 </div>

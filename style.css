@@ -412,7 +412,6 @@ span.logo {}
 
 #matière-container {
   width: 100%;
-  height: 740px;
   background-color: #fff;
   padding: 66px 26px 0 26px;
   margin-bottom: 66px;
@@ -420,12 +419,14 @@ span.logo {}
 .placement {
   text-align: center;
   border-bottom: 1px solid #ececec;
-  margin: 0 60px;
-  padding-bottom: 40px;
+  margin: 0;
+  padding: 0 0 40px 0;
 }
 .align-3 {
   margin: 0 auto;
-  width: 130px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
   margin-top: 40px;
 }
 .titre-noir {
@@ -435,6 +436,7 @@ span.logo {}
 }
 .matière {
   padding: 0 40px;
+  max-width: 347px;
 }
 .image-matière {
   width: 120px;
@@ -445,8 +447,7 @@ span.logo {}
   height: 200px;
   border-radius: 200px;
   margin: 0 auto;
-  -webkit-box-shadow: 0 1px 4px hsla(0, 0%, 73%, .5);
-  box-shadow: 0 1px 4px hsla(0, 0%, 73%, .5);
+  box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2), 0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -473,6 +474,8 @@ span.logo {}
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  max-width: 1708px;
+  flex-wrap: wrap;
   margin-top: 60px;
 }
 .titre-matière, .texte-matière {
@@ -513,6 +516,80 @@ span.logo {}
   transition: 0.3s ease;
   background-color: #0059b3;
 }
+@media (max-width: 1439px){
+  .matière-liste{
+    flex-direction: column;
+    align-items: center;
+      }
+  .matière{
+    display: flex;
+    max-width: 100%;
+    margin-bottom: 60px;
+    max-width: 760px;
+    padding: 0;
+  }
+  .responsive-matière{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+  }
+  .titre-matière, .texte-matière{
+    text-align: left;
+  }
+  .titre-matière, .texte-matière{
+    padding: 0 0 20px 0;
+  }
+  .rond-image{
+    margin: 0 60px 0 0;
+  }
+  .align-3{
+    margin: 0;
+    justify-content: start;
+  }
+}
+@media (max-width: 790px){
+  .matière{
+    flex-direction: column;
+  }
+  .rond-image{
+    margin: 0 auto;
+  }
+  .titre-matière{
+    padding: 20px 0;
+  }
+  .titre-matière, .texte-matière{
+    text-align: center;
+  }
+  .align-3{
+    margin: 0 auto;
+    justify-content: center;
+  }
+}
+@media (max-width: 542px){
+  .responsive-matière{
+    min-width: 200px;
+    width: auto;
+  }
+}
+@media (max-width: 542px){
+  .placement{
+    font-size: 33px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .footer-distributed {
   -webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
