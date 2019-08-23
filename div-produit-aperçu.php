@@ -4,11 +4,6 @@
 <div class="widget-tri">
 	<img class="image-widget-tri" src="filtre.png">	
 </div>
-<div class="conteneur-tab-simulation">
-<div id="sticky">
-	je suis la table de tag permettant de naviguer dans la base de donnée
-</div>
-
 <div class="alignement-aperçu">
 <div class="simulation">
 	<div class="conteneur-div-produit-recherche">
@@ -108,10 +103,6 @@
 		<div class="align-lien-u"><a  class="lien-amazon" href="#">Acheter sur Amazon<img class="amazon-image" src="amazon-logo.png"></a></div>
 	</div>
 	</div>
-	
-
-
-</div>
 
 </div>
 
