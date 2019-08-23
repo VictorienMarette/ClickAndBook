@@ -132,7 +132,7 @@ $('.simple').hover(function(){
     <i class="fa fa-times fa-2x" onclick="menutelfin()"></i>
   <div class="one">
     <div class="align-23">
-    <form method="GET" action="div-produit-recherche.php">
+    <form class="form-search" method="GET" action="div-produit-recherche.php">
       <input class="input-recherche-2" type="text" name="code" placeholder="Recherche"><button class="button-recherche-2" type="submit"><img class="image-search-2" src="img/blue-loupe.png" alt=""></button>
     </form>
     </div>
@@ -171,7 +171,7 @@ $('.simple').hover(function(){
   </li>
   <li><a class="simple" href="#"></a></li>
  <div class="align-2">
-    <form method="GET" action="div-produit-recherche.php">
+    <form class="form-search" method="GET" action="div-produit-recherche.php">
       <input class="input-recherche-2" type="text" name="recherche" placeholder="Recherche"><button class="button-recherche-2" type="submit" name="submit"><img class="image-search-2" src="img/blue-loupe.png" alt=""></button>
     </form>
   </div>
