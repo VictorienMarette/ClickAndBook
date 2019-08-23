@@ -667,7 +667,7 @@ span.logo {}
 
 .conteneur-tag {
   height: 650px;
-  width: 370px;
+  width: 295px;
   background-color: #f2f2f2;
   margin: 50px 0 0 50px;
   border-radius: 6px;
@@ -702,7 +702,7 @@ span.logo {}
   -webkit-box-shadow: 0 1px 4px hsla(0, 0%, 73%, .5);
   box-shadow: 0 1px 4px hsla(0, 0%, 73%, .5);
   border-radius: 6px;
-  margin-bottom: 50px;
+  margin: 0 25px 50px 25px;
 }
 .image-livre {
   width: 200px;
@@ -776,16 +776,18 @@ span.logo {}
 .simulation {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
-  width: 1000px;
+  display: inline-flex;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
-  justify-content: space-between;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  float: right;
-  margin: 50px 50px 0 50px;
 }
+.conteneur-tab-simulation{
+  padding-top: 66px;
+}
+.alignement-aperçu{
+  margin: 50px 0  25px 370px;
+  }
 /*recherche*/
 
 .conteneur-aperçu {
@@ -916,6 +918,21 @@ span.logo {}
   margin-top: 30px;
   text-align: center;
 }
+@media (max-width: 1420px){
+  .simulation{
+    max-width: 700px;
+  }
+  .alignement-aperçu{
+  margin: 50px 25px  25px 370px;
+  justify-content: center;
+  display: flex;
+  }
+}
+@media (max-width: 1095px){
+  .simulation{
+    max-width: 350px;
+  }
+}
 /*Page-product*/
 .conteneur-voir-plus {
   display: -webkit-box;
@@ -1025,7 +1042,6 @@ span.logo {}
 .info-livre {
   font-family: 'Montserrat', sans-serif;
   color: #66b3ff;
-  margin-left: 10px;
   font-size: 16px;
   text-decoration: none;
 }

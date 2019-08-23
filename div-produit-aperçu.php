@@ -1,11 +1,12 @@
 <?php
   include_once("includes/modules/header.php");
 ?>
-	
+<div class="conteneur-tab-simulation">
 <div class="conteneur-tag">
 	je suis la table de tag permettant de naviguer dans la base de donnée
 </div>
 
+<div class="alignement-aperçu">
 <div class="simulation">
 	<div class="conteneur-div-produit-recherche">
 	<div class="conteneur-image-livre">
@@ -107,7 +108,9 @@
 	
 
 
+</div>
 
+</div>
 
 </div>
 
