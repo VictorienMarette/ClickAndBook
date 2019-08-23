@@ -17,7 +17,7 @@
     </p>
   <div class="align">
     <form method="GET" action="div-produit-recherche.php">
-      <input class="input-recherche" type="text" placeholder="Quel est le nom de ton établissement ?" name="code"><button class="button-recherche" type="submit" name="submit"><img class="image-search" src="img/loupe.png" alt=""></button>
+      <input class="input-recherche" type="text" placeholder="Quel est le nom de ton établissement ?" name="code"><button class="button-recherche" type="submit"><img class="image-search" src="img/loupe.png" alt=""></button>
     </form>
   </div>
   <a class="js-scrollTo" href="#matière-container"><img class="fleche-down" src="img/arrow-down.png"></a>
