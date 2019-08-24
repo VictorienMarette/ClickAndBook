@@ -142,6 +142,7 @@ span.logo {}
 .fullscreen-video-wrap img {
   height: 100%;
   width: 100%;
+  min-width: 1920px;
 }
 #header-overlay {
   height: 100vh;
@@ -338,7 +339,27 @@ span.logo {}
     display: block;
   }
 }
-
+@media (max-width:600px){
+  .input-recherche{
+    width: 280px;
+    font-size: 13px;
+    padding: 10px;
+  }
+  .header-content p{
+    font-size: 1rem;
+    margin: 0;
+  }
+  .header-content h1{
+    font-size: 60px;
+  }
+  .header-content{
+    width: 350px;
+    margin: auto;
+    padding-top: 120px;
+  }
+  .fleche-down{
+  }
+}
 
 
 
@@ -671,6 +692,7 @@ span.logo {}
 }
 .footer-distributed .footer-center p {
   display: inline-block;
+  width: 215px;
   color: black;
   vertical-align: middle;
   margin: 0;
@@ -728,6 +750,9 @@ span.logo {}
   margin-right: 3px;
   margin-bottom: 5px;
   border-radius: 6px;
+}
+.space-footer{
+  margin-bottom: 10px;
 }
 /* If you don't want the footer to be responsive, remove these media queries */
 
