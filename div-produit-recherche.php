@@ -77,7 +77,7 @@
 	</div>
 	</div>
 	</div>';
-		echo '<div class="soulignement"></div>
+		echo '<div class="conteneur-liste-détaillée"><div class="soulignement"></div>
 	<h2 class="nom-lycée yy">Contenu détaillé de la liste :</h2>';
 
 		$ISBNs = [];
@@ -123,7 +123,6 @@
 							</div>
 						</div>
 					</div>
-						
 					</div>';
 				}
 			}
@@ -137,7 +136,7 @@
 		<a href="index.php">Menu<a>';
 	}
 	?>
-
+</div>
 </div>
 
 <?php
