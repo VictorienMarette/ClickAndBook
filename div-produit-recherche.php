@@ -70,10 +70,11 @@
 				}
 			}
 		}
-		echo '<h2 class="nom-lycée">'.$row["formation_nom"].'</h2>
+		echo '<div class="responsive-lycée"><h2 class="nom-lycée">'.$row["formation_nom"].'</h2>
 		<div class="conteneur-lien-amazon-2">
 			<div class="align-lien-v"><a  class="lien-amazon" href="'.$lien_amazon.'">Acheter sur Amazon<img class="amazon-image-2" src="amazon-logo.png"></a>
 		</div>
+	</div>
 	</div>
 	</div>';
 		echo '<div class="soulignement"></div>

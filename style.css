@@ -887,6 +887,33 @@ span.logo {}
   justify-content: center;
   display: flex;
   }
+.responsive-lycée{
+  display: flex;
+}
+@media (max-width: 815px){
+div.conteneur-description-2, div.conteneur-aperçu{
+  width: 255.2px;
+}
+.conteneur-aperçu{
+  flex-direction: column;
+}
+.texte-description-2{
+  display: none;
+}
+.lien-amazon{
+  margin-top: 20px;
+}
+h3.titre-description-2{
+  text-align: center;
+}
+div.align-lien-v{
+  justify-content: center;
+}
+.responsive-lycée{
+  flex-direction: column;
+}
+}
+
 /*recherche*/
 
 .conteneur-aperçu {
