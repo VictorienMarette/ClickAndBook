@@ -127,9 +127,19 @@ $('.simple').hover(function(){
             }
       </script>
 
+
+
+<script type="text/javascript">
+ 
+jQuery(document).ready(function(){
+
+$('.test-loader-2').show(0).delay(300).fadeOut(200);
+});
+</script>
+
+
 </head>
 <body>
-
   <nav id="nav-test">
 
   <div class="menu-tel">
@@ -140,8 +150,8 @@ $('.simple').hover(function(){
       <input class="input-recherche-2" type="text" name="code" placeholder="Recherche"><button class="button-recherche-2" type="submit"><img class="image-search-2" src="img/blue-loupe.png" alt=""></button>
     </form>
     </div>
-    <li class="liste-tel"><a class="simple" href="#">Accueil</a></li>
-    <li class="liste-tel"><a class="simple" href="#">Livre</a></li>
+    <li class="liste-tel"><a class="simple" href="index.php">Accueil</a></li>
+    <li class="liste-tel"><a class="simple" href="div-produit-aperçu.php">Livre</a></li>
   </div>
   </div>
 
@@ -160,7 +170,7 @@ $('.simple').hover(function(){
   <div class="menu-sans-titre">
     <ul>
       <li><a class="simple" href="index.php">Accueil</a></li>
-      <li><a class="trou js-scrollTo" href="#matière-container">Livres<img class="icon-arrow" src="img/sort-down.png"></a>
+      <li><a class="trou" href="div-produit-aperçu.php">Livres<img class="icon-arrow" src="img/sort-down.png"></a>
     <div class="container">
       <div class="triangle">
         
@@ -188,3 +198,4 @@ $('.simple').hover(function(){
   </div>
 </div>
   </nav>
+<div class="test-loader-2"></div>

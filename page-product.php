@@ -39,7 +39,7 @@
 			<h2 href="#" class="titre-livre tte">
 				'.$row["livre_nom"].'
 			</h2>
-			<a  class="lien-amazon-p" href="'.$row["livre_lien"].'">Acheter sur Amazon<img class="amazon-image" src="amazon-logo.png"></a>
+			<a  class="lien-amazon-p amazon-tel" href="'.$row["livre_lien"].'">Acheter sur Amazon<img class="amazon-image qsi" src="amazon-logo.png"></a>
 		</div>	
 	</div>';
 	}
