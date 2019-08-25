@@ -25,6 +25,7 @@ nav p {
   float: left;
   padding: 0 20px;
   font-weight: 700;
+  background-color: #0060C5;
 }
 nav ul {
   float: left;
@@ -216,10 +217,10 @@ span.logo {}
   width: 200px;
   font-family: 'Montserrat', sans-serif;
   color: white;
-  background-color: rgba(117, 190, 218, 0.0);
+  background-color: #66b3ff;
   font-size: 14px;
   border-radius: 6px 0 0 6px;
-  border: 2px solid white;
+  border: 2px solid #66b3ff;
 }
 .button-recherche-2 {
   height: 34px;
@@ -258,6 +259,9 @@ span.logo {}
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
+  width: 550px;
+  margin: 0 auto;
+  box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2), 0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
 }
 .align-2 {
   display: -webkit-box;
@@ -269,9 +273,10 @@ span.logo {}
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  padding: 18px 0 18px 0;
+  margin: 18px 0;
   position: absolute;
   right: 20px;
+  box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2), 0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
 }
 .align-23 {
   display: -webkit-box;
@@ -282,7 +287,8 @@ span.logo {}
   align-items: center;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
-  padding: 18px 0 18px 0;
+  margin: 18px 0;
+  box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2), 0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
 }
 .menu-tel {
   background-color: rgba(0, 102, 204, 0.9);
@@ -352,6 +358,9 @@ span.logo {}
     width: 280px;
     font-size: 13px;
     padding: 10px;
+  }
+  .align{
+    width: auto;
   }
   .header-content p {
     font-size: 1rem;
@@ -599,7 +608,7 @@ span.logo {}
   padding-top: 20px;
 }
 .footer-distributed h3 span {
-  color: black;
+  color: #0066cc;
 }
 /* Footer links */
 

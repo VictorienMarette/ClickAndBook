@@ -78,7 +78,7 @@
 	</div>
 	</div>';
 		echo '<div class="conteneur-liste-détaillée"><div class="soulignement"></div>
-	<h2 class="nom-lycée yy">Contenu détaillé de la liste :</h2>';
+	<h2 class="nom-lycée yy">Contenu détaillé de cette liste :</h2>';
 
 		$ISBNs = [];
 			

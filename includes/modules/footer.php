@@ -2,16 +2,12 @@
 
       <div class="footer-left">
 
-        <h3>Clic&Book</h3>
+        <h3>Clic<span>&</span>Book.fr</h3>
 
         <p class="footer-links">
-          <a class="js-scrollTo" href="#header-overlay">Accueil</a>
+          <a href="index.php">Accueil</a>
           ·
-          <a class="js-scrollTo" href="#section-vehicule">Livres</a>
-          ·
-          <a class="js-scrollTo" href="#section-contact">Articles</a>
-          ·
-          <a class="js-scrollTo" href="#section-contact">Contact</a>
+          <a class="js-scrollTo" href="div-produit-aperçu.php">Livres</a>
         </p>
 
         <p class="footer-company-name">Clic & Book &copy; 2019</p>

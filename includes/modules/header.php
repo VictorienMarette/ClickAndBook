@@ -133,7 +133,7 @@ $('.simple').hover(function(){
  
 jQuery(document).ready(function(){
 
-$('.test-loader-2').show(0).delay(300).fadeOut(200);
+$('.test-loader-2').fadeOut(500);
 });
 </script>
 
@@ -165,7 +165,7 @@ $('.test-loader-2').show(0).delay(300).fadeOut(200);
 
 <div class="menu-ordi">
 
-  <p class="titre-site">Clic<span class="logo">&</span>Book.fr</p>  
+  <a href="index.php"><p class="titre-site">Clic<span class="logo">&</span>Book.fr</p></a>  
     <div class="balle"><i class="fa fa-bars fa-2x" onclick="menutel()"></i></div>
   <div class="menu-sans-titre">
     <ul>
