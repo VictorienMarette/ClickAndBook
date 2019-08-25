@@ -20,17 +20,17 @@
 
       <div class="footer-center">
 
-        <div>
+        <div class="space-footer">
           <i class="fa fa-map-marker"></i>
           <p><span>5 rue Jean Mermoz</span>L'Etang-la-ville, France</p>
         </div>
 
-        <div>
+        <div class="space-footer">
           <i class="fa fa-phone"></i>
           <p>+33 6 42 98 87 30</p>
         </div>
 
-        <div>
+        <div class="space-footer">
           <i class="fa fa-envelope"></i>
           <p><a href="mailto:clicandbook@gmail.com">clicandbook@gmail.com</a></p>
         </div>
