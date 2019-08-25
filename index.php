@@ -16,8 +16,22 @@
       Ne perdez pas de temps à commander vos livres scolaires, on le fait pour vous.
     </p>
   <div class="align">
-    <form class="form-search" method="GET" action="div-produit-recherche.php">
-      <input class="input-recherche" type="text" placeholder="Quel est le nom de ton établissement ?" name="code"><button class="button-recherche" type="submit"><img class="image-search" src="img/loupe.png" alt=""></button>
+  	<script type="text/javascript">
+  		$(document).ready(function(){
+  			$("#bare_index").keyup(function(){
+  				var recherche = $("#bare_index").val();
+  				$.post("includes/ajax/sugestion.php",{
+  					recherche: recherche
+  				},function(data, status){
+  					$("#datalist1").html(data);
+  				});
+  			});
+  		});
+  	</script>
+    <form class="form-search" method="GET" action="div-produit-recherche.php" autocomplete="off">
+      <input class="input-recherche" type="text" placeholder="Quel est le nom de ton établissement ?" name="code" list="datalist1" id="bare_index">
+      <datalist id="datalist1"></datalist>
+      <button class="button-recherche" type="submit"><img class="image-search" src="img/loupe.png" alt=""></button>
     </form>
   </div>
   <a class="js-scrollTo" href="#matière-container"><img class="fleche-down" src="img/arrow-down.png"></a>
