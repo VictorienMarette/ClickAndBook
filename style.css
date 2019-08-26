@@ -216,11 +216,11 @@ span.logo {}
   height: 28px;
   width: 200px;
   font-family: 'Montserrat', sans-serif;
-  color: white;
-  background-color: #66b3ff;
+  color: #66b3ff;
+  background-color: white;
   font-size: 14px;
   border-radius: 6px 0 0 6px;
-  border: 2px solid #66b3ff;
+  border: 2px solid white;
 }
 .button-recherche-2 {
   height: 34px;
