@@ -63,7 +63,7 @@
           Universités
         </h2>
         <p class="texte-matière">
-          Toutes les matières sont réunies pour te permettre aussi bien de progresser dans tes matières faibles que de te perfectionner dans tes matières fortes.
+           Sont réunies pour te permettre aussi bien de progresser dans tes matières faibles que de te perfectionner dans tes matières fortes. Salut c'est Martin.
         </p>
         <div class="align-3"><a class="lien-description" href="#">Voir matières</a></div>
       </div>
